@@ -1,0 +1,30 @@
+The contents of this mod contain files from multiple authors. These can be seen below:
+
+-- IO Interactive
+All assets under the following paths in this repository are property of IO Interactive:
+- /blobs/actors/*.*
+- /blobs/images/unlockables/*.*
+- /blobs/images/contracts/elusive/**/*.*
+- /blobs/images/sarajevo_six/orbis00*_*/*.*
+- /blobs/images/challenges/elusive_target/*.*
+
+No claim of ownership or copyright over these files are made.
+
+-- The Peacock Project
+All other assets not listed above are property of The Peacock Project.
+
+Assets that are property of The Peacock Project are under the following license:
+
+Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+https://creativecommons.org/licenses/by-sa/4.0/
+
+For full legal text of the license, see https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+Some assets within the assets owned by The Peacock Project may contain the use of the "Road Rage" font by Youssef Habchi.
+Font used with commercial license.
+Usage of this font is governed by the terms laid out by the designer, as of September 12th, 2021.
+See https://youssef-habchi.com/license for more details.
+
+-- Atampy25
+This mod uses the SMF mod template (https://github.com/atampy25/smf-mod) which
+is licensed under LGPL-3.0, the full license can be found in "LICENSE-smf-mod-template".
