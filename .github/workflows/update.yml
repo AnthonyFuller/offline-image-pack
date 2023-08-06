@@ -1,0 +1,35 @@
+name: Update
+
+permissions:
+    contents: write
+
+on:
+    repository_dispatch:
+        types: [update_mod]
+
+    workflow_dispatch:
+
+jobs:
+    update:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout ImagePack
+              uses: actions/checkout@v3
+              with:
+                  repository: thepeacockproject/ImagePack
+                  path: "./ImagePack"
+
+            - name: Checkout Mod
+              uses: actions/checkout@v3
+              with:
+                  path: "./Mod"
+
+            - name: Copy images
+              run: cp -r "./ImagePack/images" "./Mod/blobs/images"
+
+            - name: Push updated Peacock LOCR
+              uses: EndBug/add-and-commit@v9
+              with:
+                  cwd: "./Mod"
+                  default_author: github_actions
+                  message: "enhancement: update images"
