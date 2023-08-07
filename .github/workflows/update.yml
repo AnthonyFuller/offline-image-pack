@@ -24,6 +24,9 @@ jobs:
               with:
                   path: "./Mod"
 
+            - name: Delete existing images
+              run: rm -rf "./Mod/blobs/images"
+
             - name: Copy images
               run: cp -r "./ImagePack/images" "./Mod/blobs"
 
