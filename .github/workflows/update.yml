@@ -14,13 +14,13 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout ImagePack
-              uses: actions/checkout@v3
+              uses: actions/checkout@v4
               with:
                   repository: thepeacockproject/ImagePack
                   path: "./ImagePack"
 
             - name: Checkout Mod
-              uses: actions/checkout@v3
+              uses: actions/checkout@v4
               with:
                   path: "./Mod"
 
