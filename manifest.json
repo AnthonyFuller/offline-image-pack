@@ -1,11 +1,11 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "2.33.0",
+	"version": "2.34.0",
 	"id": "anthonyfuller.offlineimagepack",
 	"name": "Offline Image Pack",
 	"description": "Makes actor, outfit, elusive, and other images offline.",
 	"authors": ["Anthony Fuller"],
-	"frameworkVersion": "2.33.24",
+	"frameworkVersion": "2.33.25",
 	"blobsFolders": ["blobs"],
 	"updateCheck": "https://github.com/AnthonyFuller/offline-image-pack/releases/latest/download/updates.json"
 }
