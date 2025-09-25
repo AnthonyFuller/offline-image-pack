@@ -6,4 +6,4 @@ Makes actor, outfit, elusive, and other images offline.
 
 ---
 
-`anthonyfuller.offlineimagepack` v2.37.0, by Anthony Fuller. This README was automatically generated from the mod's manifest.
+`anthonyfuller.offlineimagepack` v2.38.0, by Anthony Fuller. This README was automatically generated from the mod's manifest.
