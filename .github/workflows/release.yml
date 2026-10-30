@@ -26,7 +26,7 @@ jobs:
             - name: Set up Node.js
               uses: actions/setup-node@v3
               with:
-                  node-version: 18
+                  node-version: 20
 
             - name: Install dependencies
               run: |
@@ -57,7 +57,7 @@ jobs:
 
             - name: Get new version
               id: newVersion
-              run: npx --yes semantic-release --branches main --dry-run
+              run: npx --yes semantic-release@22 --branches main --dry-run
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -149,9 +149,7 @@ jobs:
 
             - name: Format
               if: ${{ steps.newVersion.outputs.new-release-version }}
-              uses: actionsx/prettier@v2
-              with:
-                  args: --write .
+              run: npx prettier . --write
 
             - name: Commit changes
               if: ${{ steps.newVersion.outputs.new-release-version }}
